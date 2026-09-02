@@ -1,11 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Add your HTML content here -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leilani Jauregui | UX Designer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <div class="brand">Leilani Jauregui</div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">UX designer • web developer</p>
+            <h1>Designing thoughtful digital experiences.</h1>
+            <p class="lead">
+              I build clean, user-friendly interfaces that focus on the user's needs while making every interaction seamless.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-button" href="#projects">See my projects</a>
+            </div>
+          </div> 
+      </section>
+
+      <section id="about" class="about section-shell">
+        <div class="container about-inner">
+          <div class="section-heading">
+            <p class="eyebrow">About me</p>
+            <h2>Designing with clarity, empathy, and purpose.</h2>
+          </div>
+
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                I am a student designer and developer who designs interfaces with intention. It is my passion to create digital worlds that feel intuitive to use and that are visually appealing. My capabilities range from a unique mix of user experience, visual design, and front-end development.
+              </p>
+              <p>
+                I care deeply about accessibility, usability, and creating
+                products that are both functional and aesthetically pleasing for everyone.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <span class="card-tag">Current focus</span>
+              <h3>UX design + web interfaces</h3>
+              <ul>
+                <li>Wireframes and prototypes</li>
+                <li>User research and testing</li>
+                <li>Responsive web design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-shell">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Skills</p>
+            <h2>My Toolkit</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-icon"><i class="fa-solid fa-clipboard-question"></i></span>
+              <h3>UX Research</h3>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon"><i class="fa-solid fa-border-all"></i></span>
+              <h3>Wireframing</h3>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon"><i class="fa-solid fa-display"></i></span>
+              <h3>Visual Design</h3>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon"><i class="fa-solid fa-file-code"></i></span>
+              <h3>HTML, CSS, & JavaScript</h3>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon"><i class="fa-brands fa-figma"></i></span>
+              <h3>Prototyping & Figma</h3>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+              <h3>AI-Assisted Development & Prompt Engineering</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-shell">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2>Selected work and case studies.</h2>
+            </div>
+            <a href="#" class="text-link">See all work</a>
+          </div>
+
+          <div class="project-track" aria-label="Project gallery">
+            <article class="project-card project-card-one">
+              <div class="project-image image-one"></div>
+              <div class="project-content">
+                <span>Coming soon</span>
+                <h3>Project one</h3>
+                <p>Coming soon</p>
+              </div>
+            </article>
+
+            <article class="project-card project-card-two">
+              <div class="project-image image-two"></div>
+              <div class="project-content">
+                <span>Coming soon</span>
+                <h3>Project two</h3>
+                <p>Coming soon</p>
+              </div>
+            </article>
+
+            <article class="project-card project-card-three">
+              <div class="project-image image-three"></div>
+              <div class="project-content">
+                <span>Coming soon</span>
+                <h3>Project three</h3>
+                <p>Coming soon</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="contact section-shell">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Let's work together.</h2>
+            <p class="lead">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:ljaureg4@asu.edu.com" class="primary-button">Email</a>
+            <a href="#" class="secondary-button">Resume</a>
+            <a href="#" class="secondary-button">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
